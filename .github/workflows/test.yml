@@ -2,7 +2,7 @@ name: Test Node.js
 run-name: ${{ github.actor }} is testing out GitHub Actions
 on:
     push:
-        branches: [:"ci_cd"]
+        branches: ["ci_cd"]
     pull_request:
         branches: ["ci_cd"]
 jobs:
